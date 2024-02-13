@@ -26,7 +26,6 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
 from boxsdk import Client, JWTAuth
-from boxsdk.config import API
 from docopt import docopt
 from loguru import logger
 
